@@ -70,7 +70,7 @@ class Index extends Component {
                                                     <ul>
                                                         <li><i className="ti-location-pin"></i> {item.location}</li>
                                                     </ul>
-                                                    <h2><Link to="/">{item.title}.</Link></h2>
+                                                    <h2><Link to={'/event/'+item.id}>{item.title}.</Link></h2>
                                                 </div>
                                             </div>
                                         </div>

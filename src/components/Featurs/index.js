@@ -51,6 +51,8 @@ class Index extends Component {
                                     </div>
                                 </div>
                                 <div className="featureSectionDescription text-light" dangerouslySetInnerHTML={{__html: this.state.sectionDescription}}></div>
+                                <a href="https://drive.google.com/file/d/19dQ6Db017AwmFMSL1JLeTD2HTyqU6FiJ/view?usp=sharing" target="_blank" className="theme-btn">Get membership form<i className="fa fa-angle-double-right"
+                                                                               aria-hidden="true"></i></a>
                             </div>
                         </Col>
 
